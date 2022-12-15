@@ -286,8 +286,7 @@ def load_plugin():
             "tab-close-active": "window-close-act.png",
             "resume": "resume48.png",
             "zoom": "zoom48.png",
-            "quit": "quit48.png",
-            "Ukraine": "Ukraine48.png",
+            "quit": "quit48.png",  
         }
     else:
         images = {
@@ -305,8 +304,7 @@ def load_plugin():
             "tab-close-active": "window-close-act.png",
             "resume": "resume.png",
             "zoom": "zoom.png",
-            "quit": "quit.png",
-            "Ukraine": "Ukraine.png",
+            "quit": "quit.png",  
         }
 
     res_dir = os.path.join(os.path.dirname(__file__), "res")
